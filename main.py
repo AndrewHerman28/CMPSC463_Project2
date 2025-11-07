@@ -13,11 +13,4 @@ if os.path.exists("/Users/andrewherman/CMP463/Project 2/Data/evacuation_graph.pk
 
 if G:
     roadmap_evacuation_centers(G.graph, evacuation_centers)
-#     for u in G.graph:
-#         for v, w in G.graph[u]:
-#             u1, u2 = round(u[0], 2), round(u[1], 2)
-#             v1, v2 = round(v[0], 2), round(v[1], 2)
-#
-#             print(f"{u1, u2} --> {v1, v2} : {round(w, 2)}")
-#     roadmap_visualization(G.graph)
-#     dijkstra(G.graph, (39.95, -75.16))
+
